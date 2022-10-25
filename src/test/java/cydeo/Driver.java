@@ -47,7 +47,7 @@ public class Driver {
                 case "remote-firefox":
 
                     try {
-                        // assign your grid server address   .my address: 44.208.32.208
+                        // assign your grid server address  my address: 44.208.32.208
                         String gridAddress = "44.208.32.208";
                         URL url = new URL("http://" + gridAddress + ":4444/wd/hub");
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
